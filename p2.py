@@ -21,13 +21,13 @@
 
 #Question # 3
 
-def currency_cnv(usd):
-  pkr=0.0036
-  amount=(usd/pkr)
-  return amount
+# def currency_cnv(usd):
+#   pkr=0.0036
+#   amount=(usd/pkr)
+#   return amount
 
-output=currency_cnv(278.15)
-print(f"The amount in usd is : {output:.2f}","Rs")
+# output=currency_cnv(278.15)
+# print(f"The amount in usd is : {output:.2f}","Rs")
 
 #Question # 4
 
@@ -39,3 +39,12 @@ print(f"The amount in usd is : {output:.2f}","Rs")
 # amt=int(input("Enter amount in Pkr : "))
 # output=currency_cnv(amt)
 # print(f"The amount in usd is :  {output:.2f}$")
+
+
+#Question # 5
+
+def print_list(list1):
+  for item in list1:
+    print(item,end='')
+  
+print_list(["Babar","Azam","Shaheen","Afridi"])
