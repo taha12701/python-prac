@@ -43,8 +43,21 @@
 
 #Question # 5
 
-def print_list(list1):
-  for item in list1:
-    print(item,end='')
+# def print_list(list1):
+#   for item in list1:
+#     print(item,end='')
   
-print_list(["Babar","Azam","Shaheen","Afridi"])
+# print_list(["Babar","Azam","Shaheen","Afridi"])
+
+
+#Question # 6
+
+def max_num(a,b,c):
+  if(a>b and a>c):
+    print("A is greater")
+  elif(b>a and b>c):
+    print("B is greater")
+  else:
+    print("C is greater")
+
+max_num(5,27,2)
