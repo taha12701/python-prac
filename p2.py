@@ -123,23 +123,37 @@
 
 #prime number function
 
-def prime_num():
-  num=int(input("Enter a number : "))
-  if(num==0 or num==1 or num<0):
-    print(f"{num} is not a prime number")
-  else:
-    for i in range(2,num,1):
-      if(num%i==0):
-        print(f"{num} is not a prime number")
-        break
-    else:
-      print(f"{num} is  a prime number")
+# def prime_num():
+#   num=int(input("Enter a number : "))
+#   if(num==0 or num==1 or num<0):
+#     print(f"{num} is not a prime number")
+#   else:
+#     for i in range(2,num,1):
+#       if(num%i==0):
+#         print(f"{num} is not a prime number")
+#         break
+#     else:
+#       print(f"{num} is  a prime number")
 
-prime_num()
+# prime_num()
+
+# def prime_num(list1):
+#   list1=int(input("Enter a list "))
+
+#   for item in list1:
 
 
+# lst=[]
 
-        
-  
+# n=int(input("Enter no of elements : "))
+
+# for i in range(0,n):
+#   ele=int(input("Enter a number : "))
+#   lst.append(ele)
+# print(lst)
+
+# for item in lst:
+#   if(item%2==0):
+#     print(item,end=' ')
 
 
