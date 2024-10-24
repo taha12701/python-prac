@@ -52,12 +52,29 @@
 
 #Question # 6
 
-def max_num(a,b,c):
-  if(a>b and a>c):
-    print("A is greater")
-  elif(b>a and b>c):
-    print("B is greater")
-  else:
-    print("C is greater")
+# def max_num(a,b,c):
+#   if(a>b and a>c):
+#     print("A is greater")
+#   elif(b>a and b>c):
+#     print("B is greater")
+#   else:
+#     print("C is greater")
 
-max_num(5,27,2)
+# max_num(5,27,2)
+
+#Question # 7
+
+def rev_str(str):
+  reverse=''
+  st=len(str)
+  while st>0:
+    reverse +=str[st-1]
+    st = st-1
+
+  return reverse
+  
+output=rev_str('Taha')
+print(output)
+    
+
+    
