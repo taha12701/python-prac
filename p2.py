@@ -64,17 +64,29 @@
 
 #Question # 7
 
-def rev_str(str):
-  reverse=''
-  st=len(str)
-  while st>0:
-    reverse +=str[st-1]
-    st = st-1
+# def rev_str(str):
+#   reverse=''
+#   st=len(str)
+#   while st>0:
+#     reverse +=str[st-1]
+#     st = st-1
 
-  return reverse
+#   return reverse
   
-output=rev_str('Taha')
-print(output)
+# output=rev_str('Taha')
+# print(output)
     
 
-    
+#Question # 8
+
+def cal_avg(n):
+  n=int(input("Enter no of items : "))
+  sum=0
+  for i in range(0,n,1):
+    k=int(input("Enter a number : "))
+    sum=sum+k
+  print("The sum is equal to : ", sum)
+  avg=(sum)/n
+  print(f"The average is equal to {avg:.2f} ")  
+cal_avg(4)
+
